@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> <!website is encoded in utf8>
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h2>Contact Me:</h2>
+    <p> Phone: 1(778)4033947 </p>
+    <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox">chaisuefeisophie@gmail.com</a>  </p>
+
+<hr>
+
+  <form action="mailto:naleeheang@gmail.com" method="post" enctype="text/plain">
+     <!method(post) attirbute mean whatever type in there willl be transferred to the email client address>
+     <!action attribute means where to take you to when u click submit>
+     <!mailto:(with email address) means to pop up a mail app with the destination email filled and your message>
+     <!enctype(text/plain) attribute means data in the form is encoded in plain text, so when the mail app is launched,
+     it wont have funny numbers >
+    <label>Your Name:</label>
+    <input type="text" name="yourName"><br>
+    <!name attribute identifies the data in each of the input>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br >
+    <label>Your message:</label><br >
+    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea> <!textbox> <br>
+    <input type="submit" name="">
+
+  </form>
+  </body>
+</html>
